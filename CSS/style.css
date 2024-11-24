@@ -1,0 +1,35 @@
+
+/* Estilizando a tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+}
+th {
+    background-color: #f8f9fa; /* Cor do cabeçalho */
+    font-weight: bold;
+}
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* Linhas alternadas */
+}
+tr:nth-child(odd) {
+    background-color: #ffffff;
+}
+button {
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+button:hover {
+    color: #007bff;
+}
+/* Removendo bordas */
+table, th, td {
+    border: none;
+    display: flex;
+    justify-content: end;
+}
